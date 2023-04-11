@@ -1,6 +1,7 @@
 package main
 
 import (
+	"app/lcp"
 	"app/twosum"
 	validparentheses "app/validParentheses"
 	"log"
@@ -82,4 +83,5 @@ func main() {
 
 	log.Println(twosum.TwoSum([]int{2, 7, 11, 15}, 9))
 	log.Println(validparentheses.IsValid("()[]{}"))
+	log.Println(lcp.LongestCommonPrefix([]string{"dog", "racecar", "car"}))
 }
